@@ -1,0 +1,28 @@
+.body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('./mainpage.jpg'); /* Use relative path for the image */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.play-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #918EDD;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    box-shadow: 0 0 10px #918EDD, 0 0 20px #918EDD;
+}

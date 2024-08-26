@@ -1,0 +1,21 @@
+{
+  "name": "coinflipgame",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "ethers": "^6.13.2",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "web3": "^4.12.1",
+    "web3modal": "^1.9.12"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "eslintConfig": {
+    "extends": "next/core-web-vitals"
+  }
+}

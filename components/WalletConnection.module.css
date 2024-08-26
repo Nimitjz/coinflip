@@ -1,0 +1,20 @@
+.walletContainer {
+    display: flex;
+    justify-content: space-between; /* Align items to the sides */
+    align-items: center; /* Center items vertically */
+    margin: 20px 0; /* Add some margin for spacing */
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #005bb5; /* Darken on hover */
+}

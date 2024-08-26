@@ -1,0 +1,21 @@
+.walletContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.gameButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00796b; /* Teal color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.gameButton:hover {
+    background-color: #004d40; /* Darker teal */
+}

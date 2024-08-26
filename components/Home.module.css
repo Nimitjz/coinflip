@@ -1,0 +1,31 @@
+.walletContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.walletContainer h3 {
+    color: #00796b; /* Teal color */
+    margin: 10px 0;
+}
+
+.walletContainer h4 {
+    color: #555; /* Dark gray color */
+    margin: 5px 0;
+}
+
+.playButton {
+    background-color: #00796b; /* Teal color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.playButton:hover {
+    background-color: #005f52; /* Darker teal color */
+}

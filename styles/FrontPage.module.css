@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/mainpage.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.playButton {
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #918EDD;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    box-shadow: 0 0 10px #918EDD, 0 0 20px #918EDD;
+}

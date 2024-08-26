@@ -1,0 +1,117 @@
+.gameContainer {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black; /* Set text color to black */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.title {
+    position: absolute;
+    top: 100px; /* Adjust the distance from the top */
+    font-size: 3rem;
+    font-weight: bold;
+    color: black; /* Set the color of the title */
+    z-index: 1; /* Ensure it's above other content */
+}
+
+.backgroundImage {
+    position: fixed; /* Make the background image fixed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire area */
+    z-index: -1; /* Place background behind other content */
+}
+
+.walletInfo {
+    position: absolute;
+    top: 1px; /* Adjust distance from top */
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Align to left and right */
+    padding: 0 20px; /* Add some horizontal padding */
+}
+
+.walletText, .balanceText {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    border: 1px solid black; /* Add a border for better visibility */
+    color: black; /* Set text color to black */
+}
+
+.betBox {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.buttonContainer {
+    margin-top: 10px; /* Space between input and buttons */
+}
+
+.betBox button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgba(0, 121, 107, 0.8); /* Change button color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+}
+
+.betBox button:hover {
+    background-color: rgba(0, 96, 80, 0.8); /* Darker on hover */
+}
+
+.noSpinner::-webkit-outer-spin-button,
+.noSpinner::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.noSpinner {
+    -moz-appearance: textfield; /* For Firefox */
+}
+
+/* Modal Styles */
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContent {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.modalContent p {
+    margin-bottom: 20px;
+}
+
+.modalContent button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgba(0, 121, 107, 0.8); /* Change button color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+}
+
+.modalContent button:hover {
+    background-color: rgba(0, 96, 80, 0.8); /* Darker on hover */
+}

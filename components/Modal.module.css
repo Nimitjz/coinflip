@@ -1,0 +1,35 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContent {
+    background: white;
+    padding: 30px; /* Increased padding for larger size */
+    border-radius: 5px;
+    text-align: center;
+    width: 300px; /* Adjusted width for a narrower modal */
+    max-width: 90%; /* Ensure it doesn't exceed the viewport width */
+}
+
+/* Scoped button selector */
+.modalContent button {
+    margin-top: 10px;
+    background-color: rgb(145, 142, 221); /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding for better appearance */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.modalContent button:hover {
+    background-color: #00796b; /* Change color on hover */
+}

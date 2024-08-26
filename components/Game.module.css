@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e0f7fa; /* Light teal */
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    color: #00796b; /* Teal color */
+  }
+  
+  .button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #00796b; /* Teal color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #004d40; /* Darker teal */
+  }
+  

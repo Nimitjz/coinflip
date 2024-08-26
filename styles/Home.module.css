@@ -1,0 +1,28 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #00796b; /* Teal color */
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #00796b; /* Teal button background */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+  background-color: #004d40; /* Darker teal on hover */
+}
+
+h3 {
+  color: #00695c; /* Darker shade of teal */
+}

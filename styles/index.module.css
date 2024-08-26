@@ -1,0 +1,52 @@
+.walletContainer {
+    position: relative; /* Necessary for layout="fill" */
+    height: 100vh; /* Ensure the container has a height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+}
+
+.title {
+    position: absolute; /* Position title over the image */
+    top: 10%; /* Adjust as needed */
+    color: white; /* Change text color to contrast with the background */
+    font-size: 36px; /* Font size for the title */
+    text-align: center; /* Center align text */
+    z-index: 10; /* Ensure it's above the image */
+}
+
+.button {
+    margin-top: 150px;
+    padding: 15px 30px; /* Increased padding for a bigger button */
+    background-color: rgb(145, 142, 221); /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size for better visibility */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+    z-index: 10; /* Ensure it's above the image */
+}
+
+.button:hover {
+    background-color: #00796b /* Slightly darker on hover */
+}
+
+.subtitle {
+    margin-top: 40px; /* Margin above the subtitle */
+    color: white; /* Change color to contrast with the background */
+    font-size: 24px; /* Font size for the subtitle */
+    text-align: center; /* Center align text */
+    z-index: 10; /* Ensure it's above the image */
+}
+
+.image {
+    position: absolute; /* Positioning for full background */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure it covers the area */
+    z-index: 1; /* Image is behind the text */
+}

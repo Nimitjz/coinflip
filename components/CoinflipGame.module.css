@@ -1,0 +1,23 @@
+.title {
+    font-size: 36px;
+    color: #00796b; /* Teal color */
+}
+
+.subtitle {
+    font-size: 24px; /* Larger font size for balance display */
+    color: #00695c; /* Darker shade of teal */
+}
+
+.button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #00796b; /* Teal color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #005b4f; /* Darker shade on hover */
+}
